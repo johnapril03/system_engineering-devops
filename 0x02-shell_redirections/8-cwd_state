@@ -1,1 +1,2 @@
-2 lines (2 loc) · 36 Bytes
+#!/bin/bash
+ls -la > ls_cwd_content
