@@ -1,9 +1,5 @@
 #!/bin/bash
 
-# 7-highlander
-trap 'echo "I am invincible!!!"' TERM
-
-while true; do
-    echo "To infinity and beyond"
-    sleep 2
-done
+# 67-stop_me_if_you_can
+PID=$(pgrep -f "7-highlander")
+[ -n "$PID" ] && kill $PID
