@@ -1,1 +1,9 @@
-9 lines (8 loc) · 141 Bytes
+#!/usr/bin/env bash
+# This script displays "Best School" 10 times
+
+i=1
+until [ "$i" -gt 10 ]
+do
+    echo "Best School"
+    i=$((i + 1))
+done
