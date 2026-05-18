@@ -1,10 +1,9 @@
-#!/usr/bin/env bash
-# This script displays a message indefinitely and handles SIGTERM
+#!/bin/bash
 
-trap 'echo "I am invincible!!!"' SIGTERM
+# 7-highlander
+trap 'echo "I am invincible!!!"' TERM
 
-while true
-do
+while true; do
     echo "To infinity and beyond"
     sleep 2
 done
