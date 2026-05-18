@@ -1,1 +1,2 @@
-2 lines (2 loc) · 24 Bytes
+#!/bin/bash
+touch hello
