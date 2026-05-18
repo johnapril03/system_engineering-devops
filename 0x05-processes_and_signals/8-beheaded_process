@@ -1,1 +1,4 @@
-4 lines (3 loc) · 105 Bytes
+#!/usr/bin/env bash
+# This script kills the 7-highlander process using SIGKILL
+
+pkill -9 -f 7-highlander
