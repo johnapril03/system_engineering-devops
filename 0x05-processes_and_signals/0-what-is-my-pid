@@ -1,1 +1,4 @@
-4 lines (3 loc) · 64 Bytes
+#!/usr/bin/env bash
+# This script displays its own PID
+
+echo $$
