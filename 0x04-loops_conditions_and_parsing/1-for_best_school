@@ -1,1 +1,7 @@
-7 lines (6 loc) · 117 Bytes
+#!/usr/bin/env bash
+# This script displays "Best School" 10 times
+
+for i in $(seq 10)
+do
+    echo "Best School"
+done
