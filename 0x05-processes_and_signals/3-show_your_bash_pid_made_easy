@@ -1,1 +1,4 @@
-4 lines (3 loc) · 99 Bytes
+#!/usr/bin/env bash
+# This script displays PID and process name for bash processes
+
+pgrep -fl bash
