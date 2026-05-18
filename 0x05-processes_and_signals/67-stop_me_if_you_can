@@ -1,1 +1,4 @@
-4 lines (3 loc) · 87 Bytes
+#!/usr/bin/env bash
+# This script sends SIGTERM to 7-highlander
+
+pkill -f 7-highlander
