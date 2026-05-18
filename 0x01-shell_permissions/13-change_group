@@ -1,1 +1,2 @@
-2 lines (2 loc) · 31 Bytes
+#!/bin/bash
+chgrp school hello
