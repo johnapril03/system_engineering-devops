@@ -1,3 +1,2 @@
-2 lines (2 loc) · 19 Bytes
 #!/bin/bash
-whoami
+chmod +x filename
