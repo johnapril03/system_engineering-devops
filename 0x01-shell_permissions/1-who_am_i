@@ -1,2 +1,2 @@
-julien@ubuntu:/tmp/h$ 
-julien@ubuntu:/tmp/h$ 
+#!/bin/bash
+whoami
