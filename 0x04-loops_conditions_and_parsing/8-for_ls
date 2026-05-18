@@ -1,1 +1,9 @@
-9 lines (8 loc) · 218 Bytes
+#!/usr/bin/env bash
+# This script displays directory contents without hidden files and prints only text after first dash
+
+for file in *
+do
+    if [ -f "$file" ]; then
+        echo "$file" | cut -d '-' -f2-
+    fi
+done
